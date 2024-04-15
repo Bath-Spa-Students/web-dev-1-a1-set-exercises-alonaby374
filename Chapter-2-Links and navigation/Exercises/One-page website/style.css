@@ -1,0 +1,40 @@
+.body {
+    font-family: Arial, sans-serif;
+    background-image: url(breaking-bad.png);
+    backdrop-filter: blur(6px);
+    color:beige;
+  }
+  
+  .navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    
+    color: #fff;
+    margin-right: 20px;
+  }
+  
+  .nav-link:hover {
+    color: #ff8c00;
+  }
+  
+  .button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .button:hover {
+    background-color: #ff4500;
+  }
+  

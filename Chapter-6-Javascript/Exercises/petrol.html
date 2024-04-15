@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="petrol.js"></script> 
+</head>
+<body>
+    
+    <div class="calculator"> <!--div for whole calculator-->
+        <div class="header"> <!--div for header-->
+            <header>Petrol Calculator</header>
+        </div>
+
+        <div class="gascalc"><!--div for actual calculating section including inputs and output-->
+            <div class="gas"> <!--separate div for inputs-->
+                <label for="petPrice">Gas Price per Liter (AED)</label>
+                <input type="number" id="petPrice" min="1.15" max="9999" value="1.72">
+            </div>
+
+            <div class="gas"><!--same class as other input-->
+                <label for="vol">Liters</label>
+                <input type="number" id="vol" min="0" max="99999" value="0">
+            </div>
+
+            <div class="cost"> <!--output div including button-->
+                <button onclick="calc()">Calculate Total Cost</button>
+                <p id="totalPrice"></p> <!--used id to reference in javascript-->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

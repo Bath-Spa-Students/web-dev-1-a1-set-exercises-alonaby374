@@ -1,0 +1,56 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: url(pic.jpg);
+    backdrop-filter: blur(10px);
+}
+
+/* Header Styles */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* List Styles */
+ul, ol {
+    margin-left: 40px;
+}
+
+/* Method List Styles */
+ol {
+    margin-left: 60px;
+}
+
+/* List Item Styles */
+li {
+    margin-bottom: 8px;
+}
+
+/* Container Styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}

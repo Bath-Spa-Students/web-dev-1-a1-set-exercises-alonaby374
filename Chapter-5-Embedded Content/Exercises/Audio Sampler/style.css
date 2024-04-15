@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(252, 251, 250); /* adding bg color */
+}
+
+.vid{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%); /*centering video in the middle of the page horizontally and vertically*/
+}
+
+video{
+    box-shadow: 1px 3px 15px rgb(196, 41, 87); /*adding subtle box shadow to add depth*/
+}
